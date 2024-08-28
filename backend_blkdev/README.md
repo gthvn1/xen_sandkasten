@@ -1,0 +1,5 @@
+- Experimenting with Xen backend block device
+- You should be able to copy it in kernel source code like `/usr/src/kernel/driver/block/`
+- and just run `make`.
+- Then you should be able to load it and remove it: `insmod ./backblk.ko && rmmod backblk`
+- check with `dmesg` that it is working...
